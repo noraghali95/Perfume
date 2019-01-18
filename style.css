@@ -1,0 +1,430 @@
+/* Start Main Rulez */ 
+
+body {
+    font-family: 'Charm', cursive;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix {clear: both;}
+/* End Main Rulez */
+/* Start Header */
+.header .slider{
+    background-image: url("p2.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   -o-background-size: cover;
+    background-color: #EEE;
+    height: 600px;
+}
+
+.header .slider .intro {
+    text-align: center;
+    color: #FFF;
+    padding-top: 100px;
+}
+
+.header .slider .intro h2{
+    margin: 0 auto;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    width: 500px;
+    padding: 5px 0 ;
+}
+
+.header .navbar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden; 
+    text-align: center
+}
+.header .navbar h2{
+    text-transform:uppercase;
+    text-align: center;
+}
+.header .navbar h2 span{
+    color: #75504a;
+}
+
+/* Start Header */
+
+/* Start Features */
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+.features .feat h2{ text-transform: uppercase}
+.features .feat p{
+    line-height: 1.7;
+    color: #888;
+    text-align: justify;
+    padding: 0 20px 0 0;
+}
+/* End Features */
+
+/* Start About me*/ 
+.about-me {
+    background-color: white;
+    overflow: hidden;
+}
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+.about-me .image img{width: 100%}
+
+.about-me .info{
+    float: left;
+    width: 60%;
+}
+.about-me .info h2{
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.about-me .info > p{
+    margin:0 0 10px 40px; 
+}
+.about-me .info > p:last-of-type{
+    margin-top:30px;
+}
+.about-me .info p{
+ line-height:1.6;
+    color: #666;   
+}
+.about-me .info .hobbes{
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+}
+.about-me .info .hobbes .contant{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about-me .info .hobbes .contant h3{color: #555}
+
+.about-me .info .hobbes .contant .icon{
+    float: left;
+    width: 20%;
+}
+
+.about-me .info .hobbes .contant .icon img
+{
+  max-width: 100%;
+  margin: 20px 10px 0 0 ;
+  
+}
+.about-me .info .hobbes .contant .text{
+    float: left;
+    width: 80%;
+}
+/* End About me */
+/* Star My Skills */ 
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.my-skills .skills ,
+.my-skills .progres {
+    float: left;
+    width: 50%;
+}
+
+.my-skills .skills h2{
+     margin: 25px 0 20px 40px;
+    color: #555;
+}
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+    line-height:1.7; 
+    color: #666;
+}
+.my-skills .skills > p:last-of-type {
+    margin-top: 25px;
+}
+
+.my-skills .skills button {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.my-skills .progres .techniuqe{margin-left: 40px;}
+.my-skills .progres .techniuqe h3{
+    color: #555; 
+}
+.my-skills .progres .techniuqe div{
+    background-color: #F2F2F2;
+    height: 25px;
+}
+.my-skills .progres .techniuqe div span{
+    background-color:darksalmon;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+    font-weight: bold;
+}
+/* End My Skills */ 
+
+/* Start Resume */
+
+.resume{
+    padding: 50px;
+    padding-bottom: 70px;
+    background-color:black;
+    text-align: center;  
+}
+.resume figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: rem(2);
+    transform: translateY(0);
+    transition: 
+    transform $spd $tf ,
+        box-shadow $spd $tf;
+
+}
+.resume figure:hover{
+    transform: translateY(-6px);
+    transform: scale(1.05);
+     box-shadow: rgba(black, 0.5) 0 12px 24px -12px;
+}
+
+/* End Resume */
+
+/* Start My Educatio*/
+.my-education{
+    padding-top:30px;
+    padding-bottom: 30px; 
+    overflow: hidden;
+}
+.my-education .main{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.my-education .exp {
+    float: left;
+    width: 45%;
+}
+.my-education .main h2{
+     margin: 25px 0 20px 40px;
+    color: #555;
+}
+.my-education .main p{
+    margin: 0 0 10px 40px;
+    line-height:1.7; 
+    color: #666;
+}
+.my-education .main > p:last-of-type {
+    margin-top: 25px;
+}
+.my-education .exp h3{
+    margin-top: 90px;
+    margin-bottom: 8px
+}
+.my-education .exp span{
+    display: block;
+    margin-bottom: 8px;
+}
+.my-education .exp span:first-of-type{
+    color: #cf6a87;
+    font-weight: bold
+}
+.my-education .exp span:last-of-type{
+    background-color: #c44569; 
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+.my-education .exp hr{
+    margin: 20px 0 ; 
+    background-color: #778beb;
+    height: 1px;
+    border: 0
+}
+.my-education .exp p {
+    line-height: 1.7;
+    color: darkcyan;
+}
+/* Start Testmontails */
+.testmontails{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+..testmontails figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: rem(2);
+    transform: translateY(0);
+    transition: 
+    transform $spd $tf ,
+        box-shadow $spd $tf;
+
+}
+.testmontails figure:hover{
+    transform: translateY(-6px);
+    transform: scale(1.05);
+     box-shadow: rgba(black, 0.5) 0 12px 24px -12px;
+}
+
+/* End Testmontails */ 
+
+/* Start Portfolio */ 
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.portfolio h2{
+    color: crimson;
+    
+}
+
+.portfolio .our-work {
+    overflow: hidden;
+}
+.portfolio .our-work > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+.portfolio .our-work > div img
+{
+  width:92% ;
+  margin: 10px;
+  border: 1px solid #CCC; 
+  background-color: #FFF;
+  box-shadow: 10px 10px 12px #CCC;
+}
+/* End Portfolio */
+
+/* Start Contact Me */
+.contact{
+    background-color:#252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact h2 {color:#fff}
+.contact p 
+{
+  color: #6A6E71 ;
+  
+  line-height: 1.7
+}
+
+.contact .info{
+   width:50%;
+    margin-right: 5%;
+    float: left; 
+}
+.contact .info p strong {
+    color: white;
+}
+.contact .form{
+    width:45%;
+    float: left;
+}
+.contact .info  address {
+    color: #4B5557; 
+    font-weight: bold
+}
+.contact .form label {
+    display: block;
+    margin-bottom: 10px ;
+    color: white;
+    font-weight: bold;
+} 
+.contact .form input[type="text"] {
+    background-color: #4B5557;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    color: brown;
+    margin-bottom: 10px;
+}
+.contact .form input[type="email"] {
+    background-color: #4B5557;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    color: snow;
+    margin-bottom: 10px;
+}
+.contact .form input[type="number"] {
+    background-color: #4B5557;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    color: snow;
+    margin-bottom: 10px;
+}
+.contact .form textarea {
+    background-color: #4B5557;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    color: snow;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.contact .form button {
+    background-color: #4B5557;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    margin-top: 10px;
+}
+ /* Start Footer */
+.footer{
+   color: #6A6E71;
+    background-color:#191E22;
+    padding: 20px 0 ;
+    text-align: center;
+    overflow: hidden;
+}
+.footer span{
+    float: left;
+}
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 ;
+    float: right;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li img{
+    widows: 24px;
+}
+/* End Footer */
+/* Start My Frame Work */ 
+.my-button{
+     background-color: none;
+    border: 3px solid brown;
+    padding: 10px 30px;
+    color:brown;
+    font-weight: bold;
+}
+/* End My Frame Work */ 
